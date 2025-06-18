@@ -24,3 +24,15 @@ footer {
   text-align: center;
   padding: 10px;
 }
+.galerie {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galerie img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
