@@ -1,0 +1,336 @@
+<html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Boutique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 10px 0;
+      background-color: white;
+    }
+    .product-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    ..product-gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue dans la Boutique d'EDGARD STONG</h1>
+    <p>Vos produits de qualité, à petit prix</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#produits">Produits</a>
+    <a href="#a-propos">À propos</a>
+    <a href="#commande">Commander</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="accueil">
+    <h2>Nos Meilleures Offres</h2>
+
+    <div class="product">
+      <h3>Produit 1</h3>
+      <p>Description du produit 1. Qualité supérieure, livraison rapide.</p>
+      <strong>Prix :€</strong>
+    </div>
+
+    <div class="product">
+      <h3>Produit 2</h3>
+      <p>Description du produit 2. Disponible en plusieurs couleurs.</p>
+      <strong>Prix : €</strong>
+    </div>
+  </div>
+
+  <div class="container" id="produits">
+    <h2>Galerie de Produits</h2>
+    <div class="product-gallery">
+      <img src="images/produit1.jpg" alt="Produit 1">
+      <img src="images/produit2.jpg" alt="Produit 2">
+      <img src="images/produit3.jpg" alt="Produit 3">
+    </div>
+  </div>
+
+  <div class="container" id="a-propos">
+    <h2>À propos de Nous</h2>
+    <p>Ma Boutique est une entreprise dédiée à offrir des produits de qualité à des prix abordables. Notre mission est de satisfaire nos clients en leur proposant une sélection variée et des services exceptionnels.</p>
+  </div>
+
+  <div class="container" id="commande">
+    <h2>Formulaire de Commande</h2>
+    <form action="#" method="post">
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Adresse e-mail :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="produit">Produit :</label>
+      <select id="produit" name="produit" required>
+        <option value="">--Sélectionnez un produit--</option>
+        <option value="produit1">Produit 1</option>
+        <option value="produit2">Produit 2</option>
+        <option value="produit3">Produit 3</option>
+      </select>
+
+      <label for="quantite">Quantité :</label>
+      <input type="number" id="quantite" name="quantite" min="1" required>
+
+      <label for="adresse">Adresse de livraison :</label>
+      <textarea id="adresse" name="adresse" rows="4" required></textarea>
+
+      <button type="submit">Passer la commande</button>
+    </form>
+  </div>
+
+  <footer id="contact">
+    <p>&copy; 2025 Ma Boutique - Tous droits réservés</p>
+    <p>Contact : stongedgard@gmail.com | Téléphone : +237698615666/671689570</p>
+  </footer>
+
+</body>
+</html>
+<html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Boutique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 10px 0;
+      background-color: white;
+    }
+    .product-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    ..product-gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue dans la Boutique d'EDGARD STONG</h1>
+    <p>Vos produits de qualité, à petit prix</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#produits">Produits</a>
+    <a href="#a-propos">À propos</a>
+    <a href="#commande">Commander</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="accueil">
+    <h2>Nos Meilleures Offres</h2>
+
+    <div class="product">
+      <h3>Produit 1</h3>
+      <p>Description du produit 1. Qualité supérieure, livraison rapide.</p>
+      <strong>Prix :€</strong>
+    </div>
+
+    <div class="product">
+      <h3>Produit 2</h3>
+      <p>Description du produit 2. Disponible en plusieurs couleurs.</p>
+      <strong>Prix : €</strong>
+    </div>
+  </div>
+
+  <div class="container" id="produits">
+    <h2>Galerie de Produits</h2>
+    <div class="product-gallery">
+      <img src="images/produit1.jpg" alt="Produit 1">
+      <img src="images/produit2.jpg" alt="Produit 2">
+      <img src="images/produit3.jpg" alt="Produit 3">
+    </div>
+  </div>
+
+  <div class="container" id="a-propos">
+    <h2>À propos de Nous</h2>
+    <p>Ma Boutique est une entreprise dédiée à offrir des produits de qualité à des prix abordables. Notre mission est de satisfaire nos clients en leur proposant une sélection variée et des services exceptionnels.</p>
+  </div>
+
+  <div class="container" id="commande">
+    <h2>Formulaire de Commande</h2>
+    <form action="#" method="post">
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Adresse e-mail :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="produit">Produit :</label>
+      <select id="produit" name="produit" required>
+        <option value="">--Sélectionnez un produit--</option>
+        <option value="produit1">Produit 1</option>
+        <option value="produit2">Produit 2</option>
+        <option value="produit3">Produit 3</option>
+      </select>
+
+      <label for="quantite">Quantité :</label>
+      <input type="number" id="quantite" name="quantite" min="1" required>
+
+      <label for="adresse">Adresse de livraison :</label>
+      <textarea id="adresse" name="adresse" rows="4" required></textarea>
+
+      <button type="submit">Passer la commande</button>
+    </form>
+  </div>
+
+  <footer id="contact">
+    <p>&copy; 2025 Ma Boutique - Tous droits réservés</p>
+    <p>Contact : stongedgard@gmail.com | Téléphone : +237698615666/671689570</p>
+  </footer>
+
+</body>
+</html>
